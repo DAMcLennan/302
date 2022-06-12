@@ -1,0 +1,47 @@
+---
+title: "HINQ302 Index Page"
+author: "Deane Andrew McLennan"
+date: '2022-06-12'
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+The advancement of digital humanities is set to impact historiography in significant ways. The use of these emerging technologies, as claimed by Eric T. Meyer and Ralph Schroeder, is akin to a digital revolution.   The proliferation of the internet as both a research tool and method have increased its capacity as an information source and can be used to create new knowledge.   
+In consideration of these statements, the question is posed: 
+What is the contribution of research in the digital humanities to the production and dissemination of public ‘stories’ or interpretations about aspects of local community history and cultural heritage?
+	To answer this question, a case study was selected in the form of the suburb of Archerfield, in Brisbane, Australia. Archerfield, a predominately industrial suburb, also serves as Brisbane’s secondary domestic airport in the southern suburbs of the city.   It also has a unique cemetery called God’s Acre Cemetery that was closed for interments in 1931, sitting on the airport property, and predominately is the resting place of the early settler families.   In many photographs of the airport during the early years, the cemetery served as an equally powerful focal point as much as the airport infrastructure did. The author conducted a thorough inspection of this cemetery in December 2020. Consequently, the portfolio is structured around these two features. 
+Archerfield has been in the modern period, recognised as of historical and heritage importance, particularly for its part played during the wartime period. The 1930s were a definitive era of aviation, particularly in Australia, with Archerfield serving as the platform for aviatrix Lores Bonney in 1932, whose name is preserved by means of a service road being named after her, Jean Batten in 1934, and aviator Charles Kingsford Smith in 1934.   In 1940, the airport became occupied by both Australian and American forces, the presence of which is visible in select photographs in the curation section of this portfolio.   This fortification of Brisbane resulted in an expansion of the airport, hangars, and fortification by means of installation of anti-aircraft emplacements.  
+Predominately, research has been conducted in the framework of its operation as an airfield, though some archaeological investigation has been recorded in Jonathan Prangnell’s Archaelogical survey of God’s Acre Cemetery, Archerfield (2008), as well as inadvertent colonial discoveries when a sinkhole formed on the airport property in 2015.   The surviving wartime buildings have been heritage listed, including igloo buildings on adjacent Kerry Road, and the art-deco style terminal and administration building. Nonetheless, most academic research that is undertaken is to contextualise Archerfield Airport in the broader system of airports within Australia.   The postwar urbanisation of Brisbane has created for the airport an existential crisis but is still deeply valued by both aviators and historians.  	
+	To reflect these particulars, the portfolio was multivalent in content and output, with unique approaches being employed to contextualise, create, interpret, and present the end data. For the individual portfolio tasks, a specific approach was utilised, and are outlined below. 
+	Therefore, the first task, two different sample of structured datasets were created.   The first was of the internments at God’s Acre Cemetery was created by both extraction, and manual input. By using a web crawling script, the information was extracted from the website Australian Cemeteries Index, and Friend’s of God’s Acre, a community website for preservation of the history of the cemetery. From these datasets, a new sample was created – i.e., ‘tidied’ – by changing dates with a question mark beside them to a NULL to allow a sense of standardisation, as well as creating new data regarding the monuments associated with the entry.   This was converted into a .csv file format for use in different applications. The second dataset was created entirely manually, in concordance with E.T. Meyer and R Schroeder’s assertion that the internet can serve as a means of discovering new patterns of human behaviour.  To reflect the immigratory purpose of Archerfield, particularly during the war and immediate postwar period, a sample of immigration details were inserted into a spreadsheet based on data available on the National Archives of Australia’s Alien Registration Papers series. Each listing may contain as little as a name, ethnicity, and arrival date, whereas others contain far more information. However, a new aspect was incorporating a departure date, or vessel, if applicable, allowing a charting of both inbound, and outbound participants. Consequently, a dataset was created to incorporate tabular data for all possible variables, allowing for nullification where such data did not exist. This was necessary due to the variation in naming conventions. Once inputted, the dataset was converted to a .csv format. 
+	The second task involved the location of imagery relevant to the project. Due to the prominence of the airfield, images of this are common, but vary in age, quality, and purpose. Few were sampled from Google Images, rather relying on digital repositories such as the National Library of Australia, National Archives of Australia, Qimagery, Brisbane City Council Archives, State Library of Queensland, and the author’s own collection. In many cases, the photographs are undated, or of a speculative date, but contextual clues through interpretation allow some approximation of dates. These were fed through Zotero and had relevant metadata manually inserted, according to the Dublin Core standards.  
+	For the third task, a sample of newspapers were sourced through Trove for the years 1931-1946. This decision was made on account of this being the period in which Archerfield was the primary airport for Brisbane, serving both domestic and international needs.  
+The intention was to source all instances of crashes at, near, or because of the aerodrome’s activities. This was a slower, but more analytical methodology, with parameters set in the search process to isolate each year and limit the search to “Archerfield” and “crash”. As the intention was to isolate specific incidents, each year’s results were reviewed based on dating, and names, to ensure no duplication of events occurred. As there were multiple newspaper articles on the same events, sometimes months after the incidents, multiple sources were drawn to support the details of a particular event. Once these sources were separated, they were fed into Taguette, and were reviewed with key details and themes highlighted to provide a glimpse into similarities in events, or particulars of injuries, fatalities, or aircraft destruction, etcetera. 
+Finally, a relevant map was created using the open-source software, QGIS. Base modelling was formed through Open Street Map, with additional layers created by use of the Queensland Government’s topographic datasets for cemeteries, roads, airports, and runways to shape the airport and immediate area. To create a visual juxtaposition, datasets for the surrounding suburbs were included as additional layers. 
